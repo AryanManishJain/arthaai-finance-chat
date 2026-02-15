@@ -1,83 +1,72 @@
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-background: #1e1e1e;
-color: #e5e5e5;
-display: flex;
-justify-content: center;
-height: 100vh;
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: #1e1e1e;
+  color: #e5e5e5;
 }
 
 .app {
-width: 800px;
-display: flex;
-flex-direction: column;
-height: 100%;
+  max-width: 900px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-header {
-padding: 20px;
-border-bottom: 1px solid #333;
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+  font-size: 22px;
+  font-weight: 600;
 }
 
-header h1 {
-margin: 0;
-color: #d1d1d1;
+.chat {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
 }
 
-header p {
-margin: 5px 0 0;
-color: #888;
-}
-
-#chat-box {
-flex: 1;
-padding: 20px;
-overflow-y: auto;
-}
-
-.message {
-padding: 12px;
-margin-bottom: 12px;
-border-radius: 8px;
-max-width: 70%;
+.msg {
+  padding: 14px 18px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  max-width: 75%;
 }
 
 .user {
-background: #3a3a3a;
-align-self: flex-end;
+  background: #3a3a3a;
+  margin-left: auto;
 }
 
 .ai {
-background: #2a2a2a;
-align-self: flex-start;
+  background: #2a2a2a;
 }
 
-.input-area {
-display: flex;
-padding: 15px;
-border-top: 1px solid #333;
+.inputBox {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  border-top: 1px solid #333;
 }
 
 input {
-flex: 1;
-padding: 12px;
-border-radius: 6px;
-border: none;
-background: #2a2a2a;
-color: white;
+  flex: 1;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
 }
 
 button {
-margin-left: 10px;
-padding: 12px 20px;
-border: none;
-border-radius: 6px;
-background: #555;
-color: white;
-cursor: pointer;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 10px;
+  background: #4a4a4a;
+  color: white;
+  cursor: pointer;
 }
 
 button:hover {
-background: #777;
+  background: #5a5a5a;
 }
