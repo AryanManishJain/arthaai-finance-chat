@@ -1,18 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArthaAI Finance Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-
 <div class="app">
     <header class="header">
-        <h1>ArthaAI Finance Chat </h1>
+        <h1>ArthaAI Finance Chat 🚀</h1>
+        <p>Your AI finance assistant</p>
     </header>
+
     <main class="chat-container" id="chat">
         <div class="message bot">
-            Hello 👋 I am ArthaAI. Ask me finance questions.
+            👋 Hello! I am ArthaAI. Ask me finance questions.
         </div>
     </main>
-    <div class="input-container">
-        <input id="userInput" placeholder="Ask about finance, startups, money..." />
+    <footer class="input-area">
+        <input 
+            id="userInput" 
+            type="text" 
+            placeholder="Ask about finance..."/>
         <button onclick="sendMessage()">Send</button>
-    </div>
+    </footer>
 </div>
 <script src="script.js"></script>
 </body>
+</html>
