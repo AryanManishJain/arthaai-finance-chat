@@ -7,25 +7,18 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="app">
-    <header class="header">
-        <h1>ArthaAI Finance Chat 🚀</h1>
-        <p>Your AI finance assistant</p>
-    </header>
+<div class="container">
+  <h1>ArthaAI Finance Chat</h1>
+  <p class="subtitle">Your AI finance assistant</p>
 
-    <main class="chat-container" id="chat">
-        <div class="message bot">
-            👋 Hello! I am ArthaAI. Ask me finance questions.
-        </div>
-    </main>
-    <footer class="input-area">
-        <input 
-            id="userInput" 
-            type="text" 
-            placeholder="Ask about finance..."/>
-        <button onclick="sendMessage()">Send</button>
-    </footer>
+  <div id="chatBox" class="chat-box">
+    <div class="message">👋 Hello! I am ArthaAI. Ask me finance questions.</div>
+  </div>
+
+  <div class="input-area">
+    <input id="userInput" placeholder="Ask about finance..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
 </div>
-<script src="script.js"></script>
 </body>
 </html>
