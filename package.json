@@ -1,0 +1,12 @@
+{
+  "name": "arthaai-finance-chat",
+  "version": "1.0.0",
+  "description": "Finance-focused AI chat starter app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
