@@ -41,3 +41,4 @@ Then open `http://localhost:3000`.
 - Add conversation storage (PostgreSQL + Redis cache).
 - Add retrieval pipeline for finance knowledge base.
 - Add analytics dashboard for response accuracy and user retention.
+
