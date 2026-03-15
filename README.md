@@ -1,158 +1,118 @@
-ArthaAI Finance Chat:
+ArthaAI Finance Chat
 
-A clean starter project for building a finance-focused AI assistant with a preloaded HTML, CSS, and JavaScript frontend, combined with a lightweight backend.
-The project includes a Node/Express API and an optional PHP endpoint for server-side processing, demonstrating how frontend applications communicate with backend services.
-This project was built for web technology and project coursework to demonstrate full-stack interaction in a finance chatbot interface.
+A lightweight finance-focused chatbot interface built with HTML, CSS, and JavaScript, connected to a backend API for processing finance-related prompts.
 
-ArthaAI Finance Chat:
+This project demonstrates full-stack interaction between a frontend chat interface and backend services using Node/Express and PHP.
 
-A clean starter project for building a finance-focused AI assistant with a preloaded HTML, CSS, and JavaScript frontend, combined with a lightweight backend.
-The project includes a Node/Express API and an optional PHP endpoint for server-side processing, demonstrating how frontend applications communicate with backend services.
-This project was built for web technology and project coursework to demonstrate full-stack interaction in a finance chatbot interface.
+Features
 
-Quick Start:
+Chat Interface
 
-Install dependencies
+Simple conversational UI for asking finance questions.
 
-Run npm install
+Finance Mode Selector
 
-Start the Node server
+Users can switch between finance topics:
 
-Run npm start
+General Finance
 
-Open the application in your browser
+Startup Finance
 
-localhost:3000
+Investing
 
-PHP Backend (Optional)
+Budgeting
 
-The project also includes a PHP API endpoint for demonstrating backend communication using PHP.
+Tax
 
-The PHP file is located in the api folder.
+Backend API
 
-The frontend can send chat requests to the PHP backend, which processes finance prompts and returns structured responses.
+Handles user prompts and returns structured responses.
 
-To run the PHP backend locally, development tools such as the following can be used:
+PHP Integration
+
+Includes a PHP API endpoint demonstrating how a JavaScript frontend can communicate with a PHP backend.
+
+Finance Guardrails
+
+The chatbot:
+
+rejects non-finance prompts
+
+avoids illegal financial advice
+
+avoids guaranteed investment claims
+
+Educational Disclaimer
+
+Responses are informational and not professional financial advice.
+
+Tech Stack
+
+Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+Backend
+
+Node.js
+
+Express
+
+PHP (optional API endpoint)
+
+
+
+
+Tech Stack
+
+Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+Backend
+
+Node.js
+
+Express
+
+PHP (optional API endpoint)
+
+Running the PHP Backend (Optional)
+
+The project includes a PHP API endpoint for demonstrating backend communication.
+
+To run the PHP version locally you can use:
 
 XAMPP
 
 MAMP
 
-The project can then be accessed through a local server environment.
+Then access the project through a local server environment.
 
-How to Build a Finance-Focused AI
+Future Improvements
 
-No AI system can be 100% perfect, but it can be designed to be safe, specialized, and domain focused.
-
-1. Keep the Frontend Simple:
-
-The current frontend already provides the core structure:
-
-index.html – interface layout
-
-style.css – user interface styling
-
-script.js – communication with the backend
-
-2. Move Intelligence to the Backend:
-
-Sensitive logic should always stay on the server.
-
-Best practices include:
-
-never placing API keys in frontend code
-
-validating and sanitizing input
-
-limiting request rates
-
-logging backend requests
-
-3. Add Finance Policy Rules:
-
-AI responses should follow strict domain rules:
-
-remain within the finance domain
-
-avoid guaranteed investment claims
-
-avoid illegal advice such as fraud or insider trading
-
-provide educational explanations
-
-acknowledge uncertainty when data is incomplete
-
-4. Add a Retrieval Layer:
-
-Financial systems should use trusted knowledge sources such as:
-
-regulatory documentation
-
-financial product documentation
-
-internal policies
-
-investment guidelines
-
-Relevant context can be retrieved and injected into responses.
-
-5. Add Risk and Suitability Checks:
-
-Before providing financial suggestions, the system should gather:
-
-financial goals and timelines
-
-income stability
-
-emergency fund status
-
-debt obligations
-
-risk tolerance
-
-6. Compliance and Human Escalation:
-
-Responsible financial tools should:
-
-show educational disclaimers
-
-recommend licensed professionals for complex advice
-
-maintain logs for sensitive financial recommendations
-
-7. Measure System Quality:
-
-Important metrics include:
-
-hallucination rate
-
-refusal accuracy
-
-user outcomes
-
-topic-level satisfaction
-
-Regular testing helps maintain system safety and reliability.
-
-
- 8.Future Improvements:
-
-Possible enhancements for this project include:
+Potential enhancements include:
 
 integrating a real AI model provider
 
-storing user profiles and conversation history
+adding financial calculators (SIP, EMI, debt payoff)
 
-adding financial calculators (SIP, EMI, startup runway, debt payoff)
+storing conversation history
 
-adding charts for budgeting and investment tracking
+adding authentication and user profiles
 
-implementing authentication and role-based access
+visualizing budgets or portfolios with charts
 
-adding automated tests for safety guardrails
+Educational Purpose
 
- 9. Educational Purpose:
+This project was created for learning and demonstration purposes.
 
-This project is intended for learning and demonstration purposes.
-
-Financial responses are informational only and should not be treated as professional advice.
+Financial responses are informational and should not be considered professional financial advice.
